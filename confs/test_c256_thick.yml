@@ -65,8 +65,8 @@ data:
   eval:
     lama_c256_thick_n100_test:
       mask_loader: true
-      gt_path: ./data/datasets/gts/c256
-      mask_path: ./data/datasets/gt_keep_masks/thick
+      gt_path: ./demo_split/celebahq/val
+      mask_path: ./demo_split/mask
       image_size: 256
       class_cond: false
       deterministic: true
@@ -74,7 +74,7 @@ data:
       random_flip: false
       return_dict: true
       drop_last: false
-      batch_size: 4
+      batch_size: 1
       return_dataloader: true
       ds_conf:
         name: random_thick_256
