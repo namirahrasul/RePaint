@@ -66,7 +66,7 @@ data:
     lama_c256_thick_n100_test:
       mask_loader: true
       gt_path: ./demo/image
-      mask_path: ./demo/mask
+      mask_path: ./demo/mask/thick
       image_size: 256
       class_cond: false
       deterministic: true
